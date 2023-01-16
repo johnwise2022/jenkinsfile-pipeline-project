@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'umarım yakındır'
+                echo 'bitti nidaları'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
